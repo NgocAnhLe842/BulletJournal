@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myFirstFont;
+  src: url("../DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Font2;
+  src: url("../static/JosefinSans-Italic.ttf");
+}
+.TheTop
+{
+	width: 100%;
+	height: 100px;
+	background-color: whitesmoke;
+}
+
+ul 
+{
+	justify-content: center;
+	float: left;
+	display: flex;
+	list-style: none; 
+	position: absolute;
+	padding: 0 10px 0 10px;
+}
+ul li
+{
+ 	position: relative;
+	padding-left: 115px; 
+	padding-top: 25px;
+}
+ul li:hover{color: #D7D1D1;}
+ul li font
+{ 
+	position: relative;
+	bottom: 20px;
+}
+.Giohang:hover{  border-radius:50%;}
+.Giohang
+{	width:60px;
+	height: 60px;
+	background-image: url("../images/pngtree-cart-web-icon--flat-line-filled-gray-icon-vector-png-image_1568789.jpg");
+	background-size: cover;
+	position:relative;
+	float: right;
+	top: 20px;
+}
+.Anh
+{   width: 100%;
+	height:400px; 
+	text-align:center;	
+	float: right;
+	background-image:url("../images/ff84503a99faa2e1dcdc88797db947a4.jpg");
+	background-size:cover;
+	margin-bottom: 15px;
+	
+}
+h2
+{   right: 10px;
+	text-decoration:underline;
+}
+.button
+{
+	width: 150px;
+	height: 40px;
+	background-color: peru;
+	border-radius:25px 25px 25px 25px; 
+	border: none;
+}
+button:hover{background-color: #BCA292 ;    border-radius:50%;}
+a
+{
+	color: #FFFFFF;
+}
+.TheMiddle
+{	
+	width: 100%;
+	height: 500px;
+	background-color:whitesmoke;
+	text-align: center;
+}
+.imagesa 
+{   
+    position: relative;
+	width: 150px;
+	height:150px;
+	background-image:url("../images/images.jpg");
+	background-size: cover;
+	margin-left: 80px;
+    margin-top: 10px;
+}
+.imagesa:hover 
+{       opacity: 0.10;
+        webkit-transform: scale(1.3);
+        ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.imagesb 
+{   
+    position: relative;
+	width: 150px;
+	height:150px;
+	background-image:url("../images/huong-dan-icon-4.jpg");
+	background-size: cover;
+	margin-left: 80px;
+    margin-top: 10px;
+}
+.imagesb:hover 
+{       opacity: 0.10;
+        webkit-transform: scale(1.3);
+        ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.imagesc
+{   
+    position: relative;
+	width: 150px;
+	height:150px;
+	background-image:url("../images/download.jfif");
+	background-size: cover;
+	margin-left: 80px;
+    margin-top: 10px;
+}
+.imagesc:hover 
+{       opacity: 0.10;
+        webkit-transform: scale(1.3);
+        ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+ul1 
+{   justify-content: center;
+	display:flex;
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: 0 20% 0 20%;
+	position: absolute;
+}
+ul1 li 
+{
+	position: relative;
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+h1{
+	bottom: 15px;
+	position: relative;
+}
+.Thecenter 
+{	
+	width: 100%;
+	height: 400px;
+	background-color:whitesmoke;
+}
+.Thecenter2
+{   width: 100%;
+	height: 550px;
+	background-color:#FAEEE8;
+}
+.Anh2
+{  	width: 50%;
+	height:550px;
+	background-image:url("../images/597864f9cbb96da115e8950aa801dd34.jpg");
+	background-size:cover;
+	float: left;
+	margin-right: 10%; 
+}
+ul2 
+{  	position: absolute;
+	list-style: none;
+	text-align:left;
+	right: 15%;
+	width: 80%;
+	justify-content: center;	
+	 
+}
+.Thecenter3
+{	width: 100%;
+	height: 480px;
+	background-color:whitesmoke;
+	text-align: center;
+}
+ul3
+{   position: relative; 
+	justify-content: center;
+	display:flex;
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: 0 40% 0 15%; 
+}
+.images2
+{   
+    position: relative;
+	width: 200px;
+	height:260px;
+	background-color:#ECE3E3;
+	margin-left: 50px;
+    margin-top: 10px;
+}
+.highlight
+{   
+    position: relative;
+	width: 200px;
+	height:20px;
+	background-color: darkslategrey;
+}
+.highlight:hover{ box-shadow: inset 0 0 0 25px slategrey;}
+.highlight3
+{   
+    position: relative;
+	width: 200px;
+	height:20px;
+	background-color: saddlebrown;
+}
+.highlight3:hover{ box-shadow: inset 0 0 0 25px peru;}
+.highlight2
+{   
+    position: relative;
+	width: 200px;
+	height:20px;
+	background-color:burlywood;
+}
+.highlight2:hover{ box-shadow: inset 0 0 0 25px lightslategray;}
+.highlight4
+{   
+    position: relative;
+	width: 200px;
+	height:20px;
+	background-color:slategrey;
+}
+.highlight4:hover{ box-shadow: inset 0 0 0 25px darkslategrey ;}
+.Anh3
+{  	width: 200;
+	height:200px;
+	background-image:url("../images/5ab3431f6f9f92e18509f4fed6585fc9_master.webp");
+	background-size:cover;
+}
+.Anh3:hover
+{       border-radius:50%;webkit-transform: scale(0.8);
+        ms-transform: scale(0.8);
+        transform: scale(0.8);}
+.images3
+{   
+    position: relative;
+	width: 200px;
+	height:260px;
+	background-color:#E4C3AC;
+	margin-left: 50px;
+    margin-top: 10px;
+}
+.Anh4
+{  	width: 200;
+	height:200px;
+	background-image:url("../images/a1554a357b224f4e57f9cb089a946ec3.jpg");
+	background-size:cover;
+}
+.Anh4:hover
+{border-radius:50%;webkit-transform: scale(0.8);
+ ms-transform: scale(0.8);
+ transform: scale(0.8);}
+.images4
+{   
+    position: relative;
+	width: 200px;
+	height:260px;
+	background-color:lightsteelblue;
+	margin-left: 50px;
+    margin-top: 10px;
+}
+.Anh5
+{  	width: 200;
+	height:200px;
+	background-image:url("../images/3ad7b0dc9357f9d1af19b967f5e80a03.jfif");
+	background-size:cover;
+}
+.Anh5:hover
+{ border-radius:50%;webkit-transform: scale(0.8);
+ ms-transform: scale(0.8);
+ transform: scale(0.8);}
+.Anh6
+{  	width: 200;
+	height:200px;
+	background-image:url("../images/bullet-journal-la-gi.png");
+	background-size:cover;
+}
+.Anh6:hover
+{ border-radius:50%;webkit-transform: scale(0.8);
+ ms-transform: scale(0.8);
+ transform: scale(0.8);}
+.TheMiddle4
+{	
+	width: 100%;
+	height: 100px;
+	background-color:whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+}
+.button2
+{
+	width: 170px;
+	height: 40px;
+	background-color: silver;
+    border: none;
+	margin-top: 80px;
+	font: bold;
+}
+.button2:hover{box-shadow: inset 0 0 0 25px #E4E4E4;   border-radius:50%;}
+.TheMiddle6
+{	
+	width: 100%;
+	height: 350px;
+	background-color:lightslategray;
+	text-align: center;word-spacing:10px;letter-spacing: 2px;color: #FFFFFF;}
+
+font
+{font-family: myFirstFont;}
+a font {font-family: Font2; }
+div {font-family: Font2;}
+div p {font-family: Font2;word-spacing:3px;letter-spacing: 1px;}
+
+
+
